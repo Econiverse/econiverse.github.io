@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Econiverse</title>
-    <link>http://econiverse.github.io/online_privacy/vpn/</link>
+    <link>http://econiverse.github.io/privacy_and_security/vpn/</link>
     <description>Recent content on Econiverse</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="http://econiverse.github.io/online_privacy/vpn/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="http://econiverse.github.io/privacy_and_security/vpn/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
