@@ -10,12 +10,12 @@
 
 
 
-    <meta name="description" content="To start, check here to see what you look like to everyone else on the internet and run a DNS leak test here to see who you are trusting with your private data.
-An IP address is a unique digital location that is used to route data back and forth between your device and the source of the data. This location is represented in the form of numbers, such as [65.">
+    <meta name="description" content="To start, check here to see what you look like to everyone else on the internet and run a DNS leak test here and/or here to see who you are trusting with your private data.
+VPN    An IP address is a unique digital location that is used to route data back and forth between your device and the source of the data. This location is represented in the form of numbers, such as [65.">
 
 
 
-    <title>VPN | Econiverse</title>
+    <title>VPN and DNS | Econiverse</title>
 
     <link rel="icon" href="/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -36,7 +36,7 @@ An IP address is a unique digital location that is used to route data back and f
 <link rel="preload" href="/custom.css" as="style">
 <link rel="stylesheet" href="/custom.css" media="all">
 
-<link rel="alternate" type="application/rss+xml" href="http://econiverse.github.io/privacy_and_security/vpn/index.xml" title="Econiverse" />
+<link rel="alternate" type="application/rss+xml" href="http://econiverse.github.io/privacy_and_security/vpn_and_dns/index.xml" title="Econiverse" />
 
 
 <!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
@@ -1802,9 +1802,9 @@ An IP address is a unique digital location that is used to route data back and f
             
             <span class="flex">
                 
-                <a href="/privacy_and_security/vpn/"
+                <a href="/privacy_and_security/vpn_and_dns/"
                     class="gdoc-nav__entry is-active">
-                    VPN
+                    VPN and DNS
                 </a>
             </span>
             
@@ -2292,7 +2292,7 @@ An IP address is a unique digital location that is used to route data back and f
     <div>
         <span class="editpage">
             <svg class="icon gdoc_code"><use xlink:href="#gdoc_code"></use></svg>
-            <a href="https://github.com/Econiverse/econiverse/tree/main/content/privacy_and_security/vpn/_index.md">
+            <a href="https://github.com/Econiverse/econiverse/tree/main/content/privacy_and_security/vpn_and_dns/_index.md">
                 Edit this page
             </a>
         </span>
@@ -2301,9 +2301,16 @@ An IP address is a unique digital location that is used to route data back and f
 </div>
 
     <article class="gdoc-markdown gdoc-markdown__align--left">
-        <h1>VPN</h1>
-        <p>To start, check <a class="gdoc-markdown__link" href="https://browserleaks.com/ip">here</a> to see what you look like to everyone else on the internet and run a DNS leak test <a class="gdoc-markdown__link" href="https://www.dnsleaktest.com/">here</a> to see who you are trusting with your private data.</p>
-<p>An IP address is a unique digital location that is used to route data back and forth
+        <h1>VPN and DNS</h1>
+        <p>To start, check <a class="gdoc-markdown__link" href="https://browserleaks.com/ip">here</a> to see what you look like to everyone else on the internet and run a DNS leak test <a class="gdoc-markdown__link" href="https://www.dnsleaktest.com/">here</a> and/or <a class="gdoc-markdown__link" href="https://dnscheck.tools/#basic">here</a> to see who you are trusting with your private data.</p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="vpn">
+        VPN
+        <a data-clipboard-text="http://econiverse.github.io/privacy_and_security/vpn_and_dns/#vpn" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor VPN" href="#vpn">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><p>An IP address is a unique digital location that is used to route data back and forth
 between your device and the source of the data. This location is represented in
 the form of numbers, such as [65.156.112.48]. Since this is a unique location, it can
 be used to identify your physical location and track your activity across the
@@ -2324,10 +2331,28 @@ somehow.
 
 <p><strong>General Recommendations</strong></p>
 <ol>
-<li>Use a VPN - Pay for it</li>
+<li>Use a VPN and pay for it</li>
 <li>Do not use a VPN based in a country who is part of <a class="gdoc-markdown__link" href="https://en.wikipedia.org/wiki/Five_Eyes">Five Eyes</a></li>
-<li>Use a provider who runs RAM-Only servers</li>
-<li>Change your DNS service provider to a secure one like <a class="gdoc-markdown__link" href="https://1.1.1.1/dns/">1.1.1.1 by Cloudflare</a> (a reputable security software/service provider, who <a class="gdoc-markdown__link" href="https://www.cloudflare.com/privacypolicy/">promise to be transparent &amp; to not sell your personal data</a>). They also offer <a class="gdoc-markdown__link" href="https://1.1.1.1/">Warp, a free &amp; simple VPN</a>, which they <a class="gdoc-markdown__link" href="https://blog.cloudflare.com/1111-warp-better-vpn/#what-s-the-catch">claim to never sell your data</a>.</li>
+<li>Consider using a provider who runs RAM-Only servers</li>
+</ol>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="dns">
+        DNS
+        <a data-clipboard-text="http://econiverse.github.io/privacy_and_security/vpn_and_dns/#dns" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor DNS" href="#dns">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><p>All internet locations are represented by numbers. A Domain Name System (DNS) service maintains a list of which numbers correspond with which alphabetic names for each website. For example, this website is <a href="https://econiverse.github.io">https://econiverse.github.io</a> which when searched with a DNS lookup service, is associated with 185.199.109.153 (a GitHub ip address).</p>
+<p>Since a DNS service provider is taking alphabetic website requests and translating it to the numerical representation, they have knowledge of every website that you visit. Some of these providers log and even sell this data for profit. There are a few steps you can take to protect against these practices.</p>
+<p><strong>General Recommendations</strong></p>
+<ol>
+<li>Change your DNS service provider to one that you trust. <a class="gdoc-markdown__link" href="https://www.quad9.net/">Quad9 - 9.9.9.9</a> and <a class="gdoc-markdown__link" href="https://1.1.1.1/dns/">Cloudflare - 1.1.1.1</a> are two great places to start. Quad9 is a non-profit organization that <a class="gdoc-markdown__link" href="https://www.quad9.net/service/privacy">does not collect personal data</a> and Cloudflare is one of the fastest DNS providers who <a class="gdoc-markdown__link" href="https://www.cloudflare.com/privacypolicy/">promise to be transparent &amp; to not sell your personal data</a>.</li>
+<li>Enable Secure DNS. This encrypts the request between your device and the DNS provider so that anyone watching cannot see what site you are requesting.
+<ol>
+<li>Instructions to enable this for various web browsers can be found <a class="gdoc-markdown__link" href="https://www.ghacks.net/2021/10/23/how-to-enable-dns-over-https-secure-dns-in-chrome-brave-edge-firefox-and-other-browsers/">here</a>.</li>
+<li>Instructions to enable this on Android devices can be found <a class="gdoc-markdown__link" href="https://www.unbxtech.com/2021/07/howto-enable-private-dns-android.html">here</a></li>
+</ol>
+</li>
 </ol>
 
     </article>
