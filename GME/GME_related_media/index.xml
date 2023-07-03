@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Related Media on Econiverse</title>
+    <title>Media Related to GameStop on Econiverse</title>
     <link>http://econiverse.github.io/GME/GME_related_media/</link>
-    <description>Recent content in Related Media on Econiverse</description>
+    <description>Recent content in Media Related to GameStop on Econiverse</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="http://econiverse.github.io/GME/GME_related_media/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
